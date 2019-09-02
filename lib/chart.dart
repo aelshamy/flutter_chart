@@ -36,7 +36,7 @@ class Chart extends StatelessWidget {
                         Container(
                           decoration: BoxDecoration(
                             border: Border.all(color: Colors.grey, width: 1),
-                            color: Colors.white12,
+                            color: Colors.grey.shade300,
                             borderRadius: BorderRadius.circular(20),
                           ),
                         ),

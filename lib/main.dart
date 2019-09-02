@@ -8,11 +8,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flutter Chart',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primaryColor: Colors.orangeAccent,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: 'Flutter Chart'),
     );
   }
 }
